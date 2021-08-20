@@ -1,0 +1,106 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+}
+
+#full_app{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#wrapper{
+    display: inline-block;
+}
+
+#lists ul {
+    align-self: flex-start;
+}
+
+.error{
+    color: #ff4757;
+}
+
+.butong{
+    color: #009432;
+}
+
+.retong{
+    color: #EE5A24;
+}
+
+.remong{
+    color: #eb4d4b;
+}
+
+.fremong{
+    color: #be2edd;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a{
+    text-decoration: none;
+    background-color: #2f3542;
+    margin: 0px 2.5px;
+    padding: 1px 8px;
+    border-radius: 5px;
+}
+
+
+.add, .textBox {
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+    font-size: 2.5rem;
+}
+
+.add {
+    cursor: pointer;
+    
+}
+
+.add i {
+    pointer-events: none;
+    color:#218c74;
+    font-size: 72px;
+    transition: color 0.5s ease;
+}
+
+.add:hover i{
+    color: #D6A2E8;
+}
+
+.txtbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textBox {
+    border: 0.5px solid#218c74;
+}
